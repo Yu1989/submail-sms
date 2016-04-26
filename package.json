@@ -1,0 +1,22 @@
+{
+  "name": "submail-sms",
+  "version": "0.0.1",
+  "description": "Wrapper for Submail SMS REST APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "submail",
+    "sms"
+  ],
+  "author": "Yu Jiang",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "request-promise": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
