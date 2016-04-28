@@ -4,19 +4,21 @@
   "description": "Wrapper for Submail SMS REST APIs.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
-  "keywords": [
-    "submail",
-    "sms"
-  ],
+  "standard": {
+    "globals": ["describe", "it"]
+  },
+  "keywords": ["submail", "sms"],
   "author": "Yu Jiang",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.3.5",
-    "request-promise": "^3.0.0"
+    "crypto": "0.0.3",
+    "lodash": "^4.11.1",
+    "request": "^2.72.0"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "should": "^8.3.1"
   }
 }
