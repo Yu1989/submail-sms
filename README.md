@@ -48,3 +48,8 @@ The 'success' response from Submail is an array of mixed successes and failures.
     code: 252,
     msg: 'Incorrect recipient message address' } ]
 ```
+
+## Test
+1. `npm install mocha -g`
+2. `npm install standard -g`
+3. `npm test`
