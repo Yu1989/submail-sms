@@ -3,7 +3,7 @@
 
 Wrapper for Submail SMS REST APIs.
 
-## Usage
+## How to use
 ```
 var SMS = require('submail-sms')
 var sms = new SMS('your_key', 'your_secret')
@@ -14,20 +14,35 @@ sms.addRecipient('15831998328', {var1: 'bar'})
 
 // the promise way
 sms.send()
-  .then(function () {
-    // do something
+  .then(function (result) {
+    // do something with result
+    // See section below for details
   })
   .catch(function (err) {
-    // handle errors
+    // handle errors (more like exceptions)
   })
 
 // or with a callback
-sms.send(function (err) {
+sms.send(function (err, result) {
   if (err) {
     // handle errors
     return
   }
 
-  // do something
+  // do something with result
 })
+```
+
+## Sample response
+The 'success' response from Submail is an array of mixed successes and failures. An example:
+```
+[ { status: 'success',
+    to: '18513993882',
+    send_id: 'aba33c824223587ed47988ebfe49b07d',
+    fee: 1,
+    sms_credits: '33' },
+  { status: 'error',
+    to: '00000000000',
+    code: 252,
+    msg: 'Incorrect recipient message address' } ]
 ```
