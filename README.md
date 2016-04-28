@@ -5,6 +5,9 @@
 
 Wrapper for Submail SMS REST APIs.
 
+## Install
+`npm install submail-sms --save`
+
 ## How to use
 ```
 var SMS = require('submail-sms')
