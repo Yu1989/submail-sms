@@ -1,5 +1,6 @@
 # submail-sms
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Build Status](https://travis-ci.org/Yu1989/submail-sms.svg?branch=master)](https://travis-ci.org/Yu1989/submail-sms)
 
 Wrapper for Submail SMS REST APIs.
 
