@@ -1,7 +1,7 @@
 {
   "name": "submail-sms",
   "version": "0.0.2",
-  "description": "Wrapper for Submail SMS REST APIs.",
+  "description": "Wrapper for Submail SMS-sending REST APIs.",
   "main": "index.js",
   "scripts": {
     "test": "standard && mocha"
