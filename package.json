@@ -10,6 +10,10 @@
     "globals": ["describe", "it", "beforeEach", "before"]
   },
   "keywords": ["submail", "sms"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yu1989/submail-sms.git"
+  },
   "author": "Yu Jiang",
   "license": "MIT",
   "dependencies": {
