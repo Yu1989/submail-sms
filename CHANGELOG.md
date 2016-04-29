@@ -1,3 +1,7 @@
+## 0.0.4 / 2016-04-29
+- More tests
+- Added repo info in package.json
+
 ## 0.0.3 / 2016-04-29
 - Fixed sample code in Readme
 - Fixed vars must be passed when adding recipient
