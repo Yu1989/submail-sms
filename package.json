@@ -12,8 +12,12 @@
   "keywords": ["submail", "sms"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yu1989/submail-sms.git"
+    "url": "git+https://github.com/Yu1989/submail-sms.git"
   },
+  "bugs": {
+    "url": "https://github.com/Yu1989/submail-sms/issues"
+  },
+  "homepage": "https://github.com/Yu1989/submail-sms#readme",
   "author": "Yu Jiang",
   "license": "MIT",
   "dependencies": {
