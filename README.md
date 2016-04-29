@@ -7,7 +7,7 @@
 Wrapper for Submail SMS REST APIs.
 
 ## Install
-`npm install submail-sms --save`
+`$ npm install submail-sms --save`
 
 ## How to use
 ```
@@ -54,6 +54,6 @@ The 'success' response from Submail is an array of mixed successes and failures.
 ```
 
 ## Test
-1. `npm install mocha -g`
-2. `npm install standard -g`
-3. `npm test`
+1. `$ npm install mocha -g`
+2. `$ npm install standard -g`
+3. `$ npm test`
