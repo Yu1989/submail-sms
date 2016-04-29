@@ -6,12 +6,8 @@ var crypto = require('crypto')
 
 describe('Sign', function () {
   it('requires data to be object', function () {
-    should(function () {
-      sign(null)
-    }).throw()
-    should(function () {
-      sign('a_string')
-    }).throw()
+    should(function () { sign(null) }).throw()
+    should(function () { sign('a_string') }).throw()
   })
 
   it('returns correct signature', function () {
