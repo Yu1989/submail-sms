@@ -7,7 +7,7 @@
     "test": "standard && mocha"
   },
   "standard": {
-    "globals": ["describe", "it"]
+    "globals": ["describe", "it", "beforeEach", "before"]
   },
   "keywords": ["submail", "sms"],
   "author": "Yu Jiang",
