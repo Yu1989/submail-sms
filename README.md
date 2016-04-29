@@ -14,7 +14,7 @@ Wrapper for Submail SMS REST APIs.
 var SMS = require('submail-sms')
 var sms = new SMS('your_key', 'your_secret')
 
-sms.setTemplate('y6t7uO')
+sms.setProject('y6t7uO')
 sms.addRecipient('18513993882', {var1: 'foo'})
 sms.addRecipient('15831998328', {var1: 'bar'})
 
