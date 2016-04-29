@@ -1,7 +1,8 @@
 # submail-sms
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![npm version](https://badge.fury.io/js/submail-sms.svg)](https://www.npmjs.com/package/submail-sms)
+[![npm downloads](https://img.shields.io/npm/dm/submail-sms.svg)](https://www.npmjs.com/package/submail-sms)
 [![Build Status](https://travis-ci.org/Yu1989/submail-sms.svg?branch=master)](https://travis-ci.org/Yu1989/submail-sms)
-[![npm version](https://badge.fury.io/js/submail-sms.svg)](https://badge.fury.io/js/submail-sms)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 Wrapper for Submail SMS REST APIs.
 
