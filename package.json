@@ -1,6 +1,6 @@
 {
   "name": "submail-sms",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Wrapper for Submail SMS-sending REST APIs.",
   "main": "index.js",
   "scripts": {
