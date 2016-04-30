@@ -10,7 +10,7 @@ Wrapper for Submail SMS REST APIs.
 `$ npm install submail-sms --save`
 
 ## How to use
-```
+```javascript
 var SMS = require('submail-sms')
 var sms = new SMS('your_key', 'your_secret')
 
@@ -41,7 +41,7 @@ sms.send(function (err, result) {
 
 ## Sample response
 The 'success' response from Submail is an array of mixed successes and failures. An example:
-```
+```json5
 [ { status: 'success',
     to: '18513993882',
     send_id: 'aba33c824223587ed47988ebfe49b07d',
