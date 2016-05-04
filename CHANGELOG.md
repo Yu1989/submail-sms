@@ -1,3 +1,6 @@
+## 0.0.6 / 2016-05-04
+- Changed badge service provider
+
 ## 0.0.5 / 2016-04-29
 - Code highlighting in Readme
 - More info to package.json
