@@ -19,7 +19,7 @@ sms.setProject('y6t7uO').addRecipient('18513993882', {var1: 'foo'})
 sms.addRecipient('15831998328', {var1: 'bar'})
 
 sms.getProject() // 'y6t7uO'
-sms.getRecipients() // [ {to: '15831998328', vars: {var1: 'bar'}} ]
+sms.getRecipients() // [ {to: '18513993882', vars: {var1: 'foo'}}, {to: '15831998328', vars: {var1: 'bar'}} ]
 
 // the promise way
 sms.send()
