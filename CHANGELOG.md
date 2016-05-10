@@ -1,3 +1,6 @@
+## 0.1.0 / 2016-05-04
+- Added methods to get project and recipients
+
 ## 0.0.6 / 2016-05-04
 - Changed badge service provider
 
