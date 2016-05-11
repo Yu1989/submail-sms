@@ -9,7 +9,7 @@
 
 ## 0.0.5 / 2016-04-29
 - Code highlighting in Readme
-- More info to package.jsnpon
+- More info to package.json
 
 ## 0.0.4 / 2016-04-29
 - More tests
