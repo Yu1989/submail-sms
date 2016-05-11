@@ -1,4 +1,7 @@
-## 0.1.0 / 2016-05-04
+## 0.1.1 / 2016-05-11
+- Added mocha and standard as local dev dependencies
+
+## 0.1.0 / 2016-05-10
 - Added methods to get project and recipients
 
 ## 0.0.6 / 2016-05-04
@@ -6,7 +9,7 @@
 
 ## 0.0.5 / 2016-04-29
 - Code highlighting in Readme
-- More info to package.json
+- More info to package.jsnpon
 
 ## 0.0.4 / 2016-04-29
 - More tests
