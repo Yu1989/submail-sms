@@ -1,4 +1,7 @@
-## 0.1.0 / 2016-05-04
+## 0.1.2 / 2016-05-11
+- Added mocha and standard as local dev dependencies
+
+## 0.1.0 / 2016-05-10
 - Added methods to get project and recipients
 
 ## 0.0.6 / 2016-05-04
