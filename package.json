@@ -7,9 +7,17 @@
     "test": "standard && mocha"
   },
   "standard": {
-    "globals": ["describe", "it", "beforeEach", "before"]
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach",
+      "before"
+    ]
   },
-  "keywords": ["submail", "sms"],
+  "keywords": [
+    "submail",
+    "sms"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yu1989/submail-sms.git"
@@ -27,6 +35,8 @@
     "request": "^2.72.0"
   },
   "devDependencies": {
-    "should": "^8.3.1"
+    "mocha": "^2.4.5",
+    "should": "^8.3.1",
+    "standard": "^7.0.1"
   }
 }
