@@ -1,3 +1,6 @@
+## 0.1.3 / 2016-05-24
+- Refactoring
+
 ## 0.1.2 / 2016-05-11
 - Added mocha and standard as local dev dependencies
 
