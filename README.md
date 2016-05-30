@@ -1,10 +1,10 @@
 # submail-sms
-[![npm version](https://img.shields.io/npm/v/submail-sms.svg)](https://www.npmjs.com/package/submail-sms)
-[![npm downloads](https://img.shields.io/npm/dt/submail-sms.svg)](https://www.npmjs.com/package/submail-sms)
-[![Build Status](https://travis-ci.org/Yu1989/submail-sms.svg?branch=master)](https://travis-ci.org/Yu1989/submail-sms)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![npm version](https://img.shields.io/npm/v/submail-sms.svg?style=flat-square)](https://www.npmjs.com/package/submail-sms)
+[![npm downloads](https://img.shields.io/npm/dt/submail-sms.svg?style=flat-square)](https://www.npmjs.com/package/submail-sms)
+[![Build Status](https://img.shields.io/travis/Yu1989/submail-sms/master.svg?style=flat-square)](https://travis-ci.org/Yu1989/submail-sms)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
-Wrapper for Submail SMS-sending REST APIs.
+Wrapper for [Submail](http://submail.cn) SMS-sending REST APIs.
 
 ## Install
 ```
@@ -20,32 +20,34 @@ var sms = new SMS('your_key', 'your_secret')
 sms.setProject('y6t7uO').addRecipient('18513993882', {var1: 'foo'})
 sms.addRecipient('15831998328', {var1: 'bar'})
 
-sms.getProject() // 'y6t7uO'
-sms.getRecipients() // [ {to: '18513993882', vars: {var1: 'foo'}}, {to: '15831998328', vars: {var1: 'bar'}} ]
+sms.getProject() // -> 'y6t7uO'
+sms.getRecipients() // -> [ {to: '18513993882', vars: {var1: 'foo'}}, {to: '15831998328', vars: {var1: 'bar'}} ]
 
 // the promise way
 sms.send()
-  .then(function (result) {
-    // do something with result
-    // See section below for details
+  .then(function (res) {
+    /**
+     * do something with the response here
+     * see section below for response details
+     */
   })
   .catch(function (err) {
-    // handle errors (more like exceptions)
+    /* handle errors (more like exceptions) */
   })
 
 // or with a callback
-sms.send(function (err, result) {
+sms.send(function (err, res) {
   if (err) {
-    // handle errors
+    /* handle errors */
     return
   }
 
-  // do something with result
+  /* do something with response */
 })
 ```
 
 ## Sample response
-The 'success' response from Submail is an array of mixed successes and failures. An example:
+The *success* response from Submail is an array of mixed successes and failures. An example:
 ```json5
 [ { status: 'success',
     to: '18513993882',

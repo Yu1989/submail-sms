@@ -1,3 +1,6 @@
+## 0.1.4 / 2016-05-31
+- Updated readme
+
 ## 0.1.3 / 2016-05-24
 - Refactoring
 
